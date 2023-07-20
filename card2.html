@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cont {
+            width: 100vw;
+            height: 100vh;
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .card {
+            width: 360px;
+            height: 480px;
+            background: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+
+
+        }
+
+        .card img {
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+
+        }
+
+        .texbox {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            width: 75%;
+            text-align: center;
+        }
+        .amount{
+            width: 80%;
+            height: 10%;
+            background-color: #4158D0;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .left{
+            width: fit-content;
+            display: flex;
+            gap: 10px;
+            height: 100%;
+            align-items: center;
+
+        }
+        .imgbox{
+            
+            height: 100px;
+            margin: 10px;
+            margin-top: 80px;
+            
+
+        }
+        .right{
+
+
+        }
+        #payment{
+            width: 80%;
+            height: 10%;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+        }
+        #payment:hover{
+            color: #10100f;
+            cursor: pointer;
+        }
+        .cancelbox a{
+            text-decoration: none;
+            color: #10100f;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="card">
+            <img src="ran.jpg">
+            <div class="texbox">
+                <h1>Rishikesh </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos id aliquid voluptatem </p>
+            </div>
+            <div class="amount">
+                <div class="left">
+                    <div class="imgbox">
+                        <img src="logo.png">
+                    </div>
+                    <div id="textamount">
+                        <p>Amount</p>
+                        <p>99,9900</p>
+
+                    </div>
+                </div>
+                <div class="right"> 
+                    <a href="#">Change</a>
+                </div>
+
+
+            </div>
+            <button id="payment" >
+                Proceed to payment
+            </button>
+            <div class="cancelbox">
+                <a href="#"> Cancel Order</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
