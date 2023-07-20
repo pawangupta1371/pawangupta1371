@@ -1,15 +1,20 @@
-- 👋 Hi, I’m @pawangupta1371
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h1>Hello Good Morning</h1>
+    <button type="button" onclick="myfuction()">try it</button>
+     <p id="demo"></p>
 
-<!---
-pawangupta1371/pawangupta1371 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<html>
-  <body>
-    <p>my name is pawan gupta</p>
-  </body>
+    <script>
+        function myfuction(){
+document.getElementById("demo").innerHTML="pawan gupta";
+        }
+</script>
+</body>
 </html>
